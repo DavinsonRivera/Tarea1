@@ -1,2 +1,13 @@
 
 h = d+(i-j) - (b+i)
+
+h= %O0
+d= %L0
+i= %L1
+j= %L2
+b= %L3
+
+SUB %L1, %L2, %L2
+ADD %L3, %L1, %L3
+SUB %L2, %L3, %L2
+ADD %L2, %L0, %O0
